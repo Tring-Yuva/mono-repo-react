@@ -11,6 +11,8 @@
     "app:flipkart": "yarn workspace @ecomm/app-flipkart dev"
   },
   "devDependencies": {
+    "@types/node": "^20.14.11",
+    "sass": "^1.77.8",
     "typescript": "^5.5.3",
     "vite-tsconfig-paths": "^4.3.2"
   },

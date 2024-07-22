@@ -1,0 +1,9 @@
+{
+  "name": "@ecomm/app-theme",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint:ts": "exit 0",
+    "test": "exit 0"
+  }
+}

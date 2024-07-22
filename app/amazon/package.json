@@ -27,6 +27,8 @@
   },
   "peerDependencies": {
     "@ecomm/app-common": "*",
-    "@ecomm/app-ui": "*"
+    "@ecomm/app-ui": "*",
+    "@ecomm/app-hooks": "*",
+    "@ecomm/app-theme": "*"
   }
 }

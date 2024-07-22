@@ -1,10 +1,10 @@
 import { Button } from "@ecomm/app-ui/components";
-import "./App.css";
+import "./styles/main.scss";
 
 function App() {
   return (
     <>
-      <h1>Helloooooo</h1>
+      <h1>Amazon Home</h1>
       <Button />
     </>
   );
