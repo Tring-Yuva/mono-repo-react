@@ -11,6 +11,6 @@
     },
     "rootDirs": ["app", "packages"]
   },
-  "include": ["app/**/*", "packages/**/*"],
+  "include": ["app", "packages"],
   "exclude": ["node_modules"]
 }
