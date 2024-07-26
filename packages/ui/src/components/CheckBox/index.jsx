@@ -1,8 +1,4 @@
-type CheckBoxProps = {
-  className?: string;
-};
-
-const CheckBox = (props: CheckBoxProps) => {
+const CheckBox = (props) => {
   const { className } = props;
   return <div className={className}>index</div>;
 };

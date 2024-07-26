@@ -1,8 +1,4 @@
-type ButtonProps = {
-  className?: string;
-};
-
-const Button = (props: ButtonProps) => {
+const Button = (props) => {
   const { className } = props;
   return <div className={className}>Button</div>;
 };

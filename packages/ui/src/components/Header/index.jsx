@@ -1,8 +1,4 @@
-type HeaderProps = {
-  className?: string;
-};
-
-const Header = (props: HeaderProps) => {
+const Header = (props) => {
   const { className } = props;
   return <div className={className}>Header</div>;
 };

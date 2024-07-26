@@ -1,8 +1,4 @@
-type SelectProps = {
-  className?: string;
-};
-
-const Select = (props: SelectProps) => {
+const Select = (props) => {
   const { className } = props;
   return <div className={className}>Select</div>;
 };

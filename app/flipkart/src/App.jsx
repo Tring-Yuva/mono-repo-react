@@ -4,7 +4,7 @@ import "./styles/main.scss";
 function App() {
   return (
     <>
-      <h1>Amazon Home</h1>
+      <h1>Flipkart Home</h1>
       <Button />
     </>
   );

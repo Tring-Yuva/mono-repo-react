@@ -1,8 +1,4 @@
-type AvatarProps = {
-  className?: string;
-};
-
-const Avatar = (props: AvatarProps) => {
+const Avatar = (props) => {
   const { className } = props;
   return <div className={className}>Avatar</div>;
 };

@@ -1,8 +1,4 @@
-type RadioProps = {
-  className?: string;
-};
-
-const Radio = (props: RadioProps) => {
+const Radio = (props) => {
   const { className } = props;
   return <div className={className}>Radio</div>;
 };
