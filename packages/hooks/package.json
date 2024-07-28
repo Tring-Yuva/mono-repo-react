@@ -1,5 +1,5 @@
 {
-  "name": "@ecomm/app-hooks",
+  "name": "@demo/app-hooks",
   "private": true,
   "version": "0.0.1",
   "scripts": {
@@ -18,5 +18,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^5.3.4"
+  },
+  "peerDependencies": {
+    "@demo/app-common": "*"
   }
 }

@@ -1,10 +1,21 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import path from "path";
+import { fileURLToPath } from "url";
 
-// https://vitejs.dev/config/
+// Get the directory name of the current module file
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, "../..");
+
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    esbuildOptions: {},
+  resolve: {
+    alias: {
+      "@demo/app-common": path.resolve(rootDir, "packages/common/src"),
+      "@demo/app-ui": path.resolve(rootDir, "packages/ui/src"),
+      "@demo/app-theme": path.resolve(rootDir, "packages/theme"),
+      "@demo/app-hooks": path.resolve(rootDir, "packages/hooks/src"),
+    },
   },
 });

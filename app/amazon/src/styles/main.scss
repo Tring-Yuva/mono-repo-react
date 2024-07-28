@@ -1,7 +1,7 @@
-@use "@ecomm/app-ui/src/styles/theme";
-@use "@ecomm/app-ui/src/styles/variables";
-@use "@ecomm/app-ui/src/styles/accessibility";
-@use "@ecomm/app-ui/src/styles/mixins/responsive";
+@use "@demo/app-ui/styles/theme";
+@use "@demo/app-ui/styles/variables";
+@use "@demo/app-ui/styles/accessibility";
+@use "@demo/app-ui/styles/mixins/responsive";
 
 :root {
   --primary-color: #{theme.$primary-color};

@@ -1,5 +1,5 @@
 {
-  "name": "common",
+  "name": "@demo/app-common",
   "private": true,
   "version": "0.0.1",
   "scripts": {

@@ -1,4 +1,4 @@
-import { Button } from "@ecomm/app-ui/components";
+import { Button } from "@demo/app-ui/components";
 import "./styles/main.scss";
 
 function App() {

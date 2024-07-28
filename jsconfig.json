@@ -4,10 +4,13 @@
     "baseUrl": "./",
     "outDir": "./dist",
     "paths": {
-      "@ecomm/app-amazon/*": ["app/amazon/src/*"],
-      "@ecomm/app-flipkart/*": ["app/flipkart/src/*"],
-      "@ecomm/app-common/*": ["packages/common/src/*"],
-      "@ecomm/app-ui/*": ["packages/ui/src/*"]
+      "@demo/app-amazon/*": ["app/amazon/src/*"],
+      "@demo/app-flipkart/*": ["app/flipkart/src/*"],
+      "@demo/app-chekplus/*": ["app/chekplus/src/*"],
+      "@demo/app-common/*": ["packages/common/src/*"],
+      "@demo/app-ui/*": ["packages/ui/src/*"],
+      "@demo/app-hooks/*": ["packages/hooks/src/*"],
+      "@demo/app-theme/*": ["packages/theme/*"]
     },
     "rootDirs": ["app", "packages"]
   },

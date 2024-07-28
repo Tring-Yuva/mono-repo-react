@@ -1,5 +1,5 @@
 {
-  "name": "@ecomm/amazon",
+  "name": "@demo/app-amazon",
   "private": true,
   "version": "0.0.1",
   "scripts": {
@@ -23,9 +23,9 @@
     "vite": "^5.3.4"
   },
   "peerDependencies": {
-    "@ecomm/app-common": "*",
-    "@ecomm/app-ui": "*",
-    "@ecomm/app-hooks": "*",
-    "@ecomm/app-theme": "*"
+    "@demo/app-common": "*",
+    "@demo/app-ui": "*",
+    "@demo/app-hooks": "*",
+    "@demo/app-theme": "*"
   }
 }

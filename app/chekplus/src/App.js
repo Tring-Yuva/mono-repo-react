@@ -1,12 +1,10 @@
 import { Button } from "@demo/app-ui/components";
-import "./styles/main.scss";
 
 function App() {
   return (
-    <>
-      <h1>Flipkart Home</h1>
+    <div className="App">
       <Button />
-    </>
+    </div>
   );
 }
 
